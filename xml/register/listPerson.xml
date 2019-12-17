@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="personenregister">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Personenregister</title>
+                <respStmt>
+                    <resp>erstellt und bearbeitet von</resp>
+                    <name>Maximilian Görmar</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="person">Maximilian Görmar</name>
+                    <!--<address>
+                  <street>Mathildenstraße 11</street>
+                  <name type="city">Leipzig</name>
+                  <postCode>D-04277</postCode>
+                  <name type="country">Germany</name>
+               </address>-->
+                </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson xml:id="person">
+                <person xml:id="ernst_1">
+                    <persName>
+                        <forename>Ernst</forename>
+                        <surname>N. N.</surname>
+                    </persName>
+                    <note>Freund von <rs type="person" ref="#goermar_walter">Walter Görmar</rs> und <rs type="person" ref="#robert_1">Robert</rs>; 1914 vermutlich Rekrut zusammen mit <rs type="person" ref="#heymann_max">Max Heymann</rs></note>
+                </person>
+                <person xml:id="goermar_walter">
+                    <persName>
+                        <forename>Walter</forename>
+                        <surname>Görmar</surname>
+                    </persName>
+                    <birth>1897</birth>
+                    <death>1972</death>
+                    <note>Sohn des Tischlers und Glasers August Görmar in Bad Frankenhausen; 1911 Beginn einer Zimmermannslehre; daneben Studium in Hoch- und Tiefbau am Polytechnischen Institut in Bad Frankenhausen; 1920 Prüfung zum Tiefbauingenieur; 1920-58 Tätigkeit in der staatlichen Straßenbauverwaltung; ab 1958 Rentner</note>
+                </person>
+                <person xml:id="held_louis">
+                    <persName ref="https://d-nb.info/gnd/124221785">
+                        <forename>Louis</forename>
+                        <surname>Held</surname>
+                    </persName>
+                    <birth>1851</birth>
+                    <death>1927</death>
+                    <note>Sohn des Berliner Fabrikanten Adolf Ferdinand Carl Held; Ausbildung zum Fotografen; 1876-79 erstes Atelier (mit C. Steinl) in Liegnitz; 1879-82 Fotograf in Berlin; ab 1882 eigenes Atelier in Weimar; ab 1910 auch als Filmemacher tätig; 1925 Übergabe des Ateliers an seine Tochter Ella</note>
+                </person>
+                <person xml:id="heymann_max">
+                    <persName>
+                        <forename>Max</forename>
+                        <surname>Heymann</surname>
+                    </persName>
+                    <note>Freund von <rs type="person" ref="#goermar_walter">Walter Görmar</rs> und <rs type="person" ref="#robert_1">Robert</rs>; 1914 Rekrut in Gera, vermutlich mit <rs type="person" ref="#ernst_1">Ernst</rs></note>
+                </person>
+                <person xml:id="robert_1">
+                    <persName>
+                        <forename>Robert</forename>
+                        <surname>N. N.</surname>
+                    </persName>
+                    <note>1914 Kriegsfreiwilliger; Kamerad von <rs type="person" ref="#goermar_walter">Walter Görmar</rs></note>
+                </person>
+                
+            </listPerson>
+        </body>
+    </text>
+</TEI>
