@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/tei/P5/v2.8.0/tei-p5-transcr.xsd" xml:id="xml_main_introduction">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Einführung</title>
+                <author>
+                    <forename>Maximilian</forename>
+                    <surname>Görmar</surname>
+                </author>
+                <respStmt>
+                    <resp>Umsetzung der Digitalen Edition von</resp>
+                    <persName>
+                        <forename>Maximilian</forename>
+                        <surname>Görmar</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="person">Maximilian Görmar</name>
+                </publisher>
+                <date type="digitised" when="2019">2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <xi:include href="register/listPerson.xml" xpointer="element(person)"/>
+                <!--<xi:include href="register/listAbbr.xml" xpointer="element(abbr)"/>
+            <xi:include href="register/listSymb.xml" xpointer="element(symbol)"/>-->
+                <xi:include href="register/listPlace.xml" xpointer="element(place)"/>
+                <!--<xi:include href="register/listOrg.xml" xpointer="element(organisation)"/>
+            <xi:include href="register/listGloss.xml" xpointer="element(glossar)"/>
+            <xi:include href="register/listBibl.xml" xpointer="element(bibliographie)"/>-->
+            </sourceDesc>
+        </fileDesc><!--
+      <encodingDesc>
+         <classDecl>
+            <xi:include href="register/listSubject.xml" xpointer="element(subject)"/>
+         </classDecl>
+      </encodingDesc>-->
+        <revisionDesc>
+            <list>
+                <item>work in progress</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="document" xml:id="main_introduction">
+                <p>
+                    "Im wahrsten Sinne des Wortes führt diese Schrift den bloßen Titel eines Versuches [...]."<note type="footnote" resp="mg">Jacob Burckhardt: Die Kultur der Renaissance in Italien. Ein Versuch, Stuttgart 1947 (Erstausgabe: 1860), S. 3</note> Mit diesen Worten leitete Jacob Burckhardt sein großes Werk über die Kultur der Renaissance ein. Das hier präsentierte Projekt erhebt keinesfalls den Anspruch, in irgendeiner Form mit Burckhardt zu wetteifern. Es stellt aber ebenfalls "[i]m wahrsten Sinne des Wortes" nur einen Versuch dar, den Versuch Stück für Stück ein virtuelles Archiv der Familie Görmar in Leipzig und der mit ihr in engerer Beziehung stehenden Familien aufzubauen. Die Idee entstand als eine Art Geburtstagsgeschenk für meinen Vater und stellt gleichzeitig ein Weihnachtsgeschenk an die ganze Familie dar. Trotz dieses persönlichen und familiengeschichtlichen Hintergrundes geht es hier allerdings nicht so sehr um Genealogie, als vielmehr darum die vielen historischen Dokumente die im Famileinbesitz in Schubladen, Regalen, auf Dachböden oder in Kellern schlummern, öffentlich zu machen und in digitaler Weise zu teilen. Angesprochen sind als Leser und Beiträger natürlich zuerst alle Familienangehörigen, dann aber auch interessierte Außenstehende, vielleicht auch der ein oder andere historisch arbeitende Forscher. Deshalb wurde bei den Transkriptionen auf die Einhaltung etablierter editionsphilologischer Standards gelegt, sodass die präsentierten Daten auch in anderen Kontexten nachnutzbar sein können. Schließlich ist die Geschichte von Familien und Individuen immer in größere Zusammenhänge eingebunden, wovon man sich bei der Lektüre der hier edierten Stücke leicht überzeugen kann. Im Idealfall entsteht mit diesem Projekt nicht nur eine Sammlung familiengeschichtlicher Quellen, sondern eine kaleidoskopartige Gesamtschau der deutschen Geschichte in den letzten gut 150 Jahren.
+                </p>
+                <p>
+                    <lb/><hi rendition="bold">Editionsrichtlinien</hi>
+                    <lb/>Die hier versammelten Dokumente wurden entsprechend den Vorgaben der TEI (P5)<note type="footnote" resp="mg">Vgl. <ref target="https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html">https://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html</ref>.</note> transkribiertund in XML ausgezeichnet. Wo immer möglich werden separat zudem digitale Faksimiles der edierten Quellen bereitgestellt. Grundsätzlich wurden bei den Transkriptionen folgende Regeln beachtet: 1. Es wurde der Lautbestand des Originals gewahrt. Eine Ausnahme hiervon stellt lediglich das große I und das große J dar. Da sie meist dieselbe Graphie besitzen, wurde hier stillschweigend nach dem Lautwert normalisiert. Ferner wird nicht zwischen rundem und Schaft-s unterschieden, sondern immer rundes s transkribiert. 2. Abkürzungen werden aufgelöst. Der jeweils ergänzte Wortteil wird durch Kursivierung kenntlich gemacht. 3. Nachträgliche zeitgenössische Ergänzungen werden in Spitzklammern und an der jeweils intendierten Stelle wiedergegeben. Außerdem werden sämtliche Streichungen als solche dargestellt. Andere Textphänomene, die sich mit graphischen Mitteln nicht nachbilden lassen, werden im Textapparat dokumentiert. 4. Sämtliche im Text vorkommenden Personen und Orte werden ausgezeichnet und mit entsprechenden Kommentaren versehen sowie in jeweiligen Registern verzeichnet. 5. Die sonstige Kommentierung wird über Fußnoten in einem eigenen Sachkommentar realisiert. Sie beschränkt sich auf das zum Textverständnis Nötige. Zudem sind zu Einzeltexten und Textkonvoluten, die sich zu einer sinnvollen Einheit zusammenfassen lassen, kurze Einleitungstexte geplant, die die Quellen kontextualisieren, kommentieren und interessante Stellen hervorheben. 
+                </p>
+                <p>
+                    <lb/>Maximilian Görmar, Leipzig im Dezember 2019
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

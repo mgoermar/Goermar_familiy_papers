@@ -5,6 +5,8 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:exist="http://exist.sourceforge.net/NS/exist" xmlns:mods="http://www.loc.gov/mods/v3"
     exclude-result-prefixes="tei mets xlink exist rdf" version="2.0">
+    
+    <xsl:import href="toc.xsl"/>
 
     <xsl:output encoding="UTF-8" indent="yes" method="html" doctype-public="-//W3C//DTD HTML 4.01//EN"
         doctype-system="http://www.w3.org/TR/html4/strict.dtd"/>
@@ -14,13 +16,15 @@
             <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
                 <title>Görmar Familienarchiv</title>
-<!--                <link rel="stylesheet" type="text/css" href="http://diglib.hab.de/edoc/ed000228/layout/navigator.css"/>-->
+                <link rel="stylesheet" type="text/css" href="file:/Users/maximiliangormar/Documents/GitHub/Goermar_familiy_papers/css/layout.css"/>
                 <script type="text/javascript" src="http://diglib.hab.de/edoc/ed000228/javascript/jquery/jquery-1.11.0.js"/>
                 <script type="text/javascript" src="http://diglib.hab.de/edoc/ed000228/javascript/jquery/functions.js"/>
-                <script src="http://diglib.hab.de/navigator.js" type="text/javascript"/>
-                <script src="http://diglib.hab.de/navigator.js" type="text/javascript"><noscript>please activate javascript to enable wdb functions</noscript></script>
             </head>
             <body>
+                <header>
+                    <p>Virtuelles Archiv der Famlie Görmar</p>
+                </header>
+                <xsl:call-template name="toc"/>
                 <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
                 <div class="content">
                     <xsl:apply-templates select="//tei:div[@type='document']"/>
@@ -63,7 +67,7 @@
                                             <xsl:call-template name="fnnumber" />
                                         </xsl:variable>
                                         <div style="padding-left: 1em; text-indent: -1em;">
-                                            <a name="an{$number}" href="#ana{$number}" style="display:inline-block; margin-left: 1em;">
+                                            <a name="an{$number}" href="#ana{$number}" style="display:inline-block; margin-left: 1em; color:blue;">
                                                 <xsl:value-of select="$number"/>
                                             </a>
                                             <xsl:text> </xsl:text>
@@ -138,6 +142,7 @@
                         <!-- Kommentare  -->
                         <xsl:if test="tei:TEI/tei:text/tei:body//tei:note[@type='footnote'] | tei:TEI/tei:text/tei:body//tei:ref[@type='biblical'][@cRef][not(ancestor::tei:note)]">
                             <hr/>
+                            
                             <div id="textapparat">Kommentar</div>
                             <xsl:choose>
                                 <xsl:when test="tei:TEI/tei:text/tei:body//tei:note[@type='commentar']">
@@ -219,13 +224,18 @@
 
     <xsl:template match="tei:p">
         <p>
+            <xsl:if test="@rendition='#c'">
+                <xsl:attribute name="class">
+                    <xsl:text>center</xsl:text>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
 
     <xsl:template match="tei:pb">
         <xsl:text>[</xsl:text>
-        <a href="file:/Users/maximiliangormar/Documents/GitHub/Goermar_familiy_papers/images/{@facs}.JPG"><xsl:value-of select="@n"/></a>
+        <a class="pb" href="file:/Users/maximiliangormar/Documents/GitHub/Goermar_familiy_papers/images/{@facs}.JPG" target="_blank">[<xsl:value-of select="@n"/>]</a>
         <xsl:text>]</xsl:text>
     </xsl:template>
 
@@ -276,6 +286,11 @@
         </xsl:if>
         <xsl:if test="@rendition='#right'">
             <span class="right-align">
+                <xsl:apply-templates/>
+            </span>
+        </xsl:if>
+        <xsl:if test="@rendition='bold'">
+            <span class="bold">
                 <xsl:apply-templates/>
             </span>
         </xsl:if>
@@ -339,11 +354,15 @@
     </xsl:template>
     
     <xsl:template match="tei:closer">
-        <xsl:apply-templates/>
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:opener">
-        <xsl:apply-templates/>
+        <p>
+            <xsl:apply-templates/>
+        </p>
     </xsl:template>
     
     <xsl:template match="tei:salute">
@@ -351,9 +370,8 @@
     </xsl:template>
     
     <xsl:template match="tei:stamp">
-        <xsl:text>[Stempel:]&lt;</xsl:text>
+        <xsl:text>[Stempel:]</xsl:text>
         <xsl:apply-templates/>
-        <xsl:text>&gt;</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:person">
@@ -423,7 +441,7 @@
                     <xsl:value-of select="tei:placeName/."/>
                     <xsl:if test="tei:placeName[@ref]">
                         <br/>
-                        <a href="{tei:placeName/@ref}" target="_blank">weiterführende Informationen </a>
+                        <a href="{tei:placeName/@ref}" target="_blank" style="color:#160080;">weiterführende Informationen </a>
                     </xsl:if>
                 </span>
                 <xsl:text> </xsl:text>
@@ -465,8 +483,34 @@
     </xsl:template>
     
     <xsl:template match="tei:ex">
-        <span class="ex">
-            <xsl:apply-templates/>
-        </span>
+        <xsl:param name="id"/>
+        <xsl:param name="ref"/>
+        <xsl:choose>
+            <xsl:when test="ancestor::tei:rs and not(ancestor::tei:add)">
+                <a href="javascript:void(0)" id="{$id}" class="rs-ref ex" onclick="showInlineAnnotation(this, '{$ref}');">
+                    <xsl:apply-templates/>
+                </a>
+            </xsl:when>
+            <xsl:otherwise>
+                <span class="ex">
+                    <xsl:apply-templates/>
+                </span>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:dateline">
+        <xsl:choose>
+            <xsl:when test="@rendition='#right'">
+                <p class="right-align">
+                    <xsl:apply-templates/>
+                </p>
+            </xsl:when>
+            <xsl:otherwise>
+                <p>
+                    <xsl:apply-templates/>
+                </p>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>

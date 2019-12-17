@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/tei/P5/v2.8.0/tei-p5-transcr.xsd" xml:id="edoc_ed000228_fg_1621_11">
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/tei/P5/v2.8.0/tei-p5-transcr.xsd" xml:id="xml_1914_1208_postkarte">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -44,6 +45,20 @@
             <xi:include href="register/listGloss.xml" xpointer="element(glossar)"/>
             <xi:include href="register/listBibl.xml" xpointer="element(bibliographie)"/>-->
          </sourceDesc>
+         <sourceDesc>
+            <msDesc xml:id="original_1914_1208_postkarte" xml:lang="de">
+               <msIdentifier>
+                  <msName>Feldpostkarte, Robert N.N. an Max Heymann: 08. Dezember 1914</msName>
+               </msIdentifier>
+               <history>
+                  <summary>
+                     <p>
+                        Ursprünglich im Privatbesitz von Walter Görmar, später von Gerhard Görmar, jetzt von Maximilian Görmar.
+                     </p>
+                  </summary>
+               </history>
+            </msDesc>
+         </sourceDesc>
       </fileDesc><!--
       <encodingDesc>
          <classDecl>
@@ -58,7 +73,7 @@
    </teiHeader>
   <text>
      <body>
-        <div type="document" xml:id="1914_1208_postkarte">
+        <div type="document" xml:id="content_1914_1208_postkarte">
            <pb n="recto" facs="1914_1208_postkarte_001"/>
            <p>
               <figure>
@@ -68,14 +83,10 @@
                  </head>
               </figure>
            </p>
-           <p>
-                 <stamp>
-                    <hi rendition="#c">
-                       <lb/><rs type="person" ref="#held_louis">Louis Held</rs>
+           <p rendition="#c">
+                 <stamp><lb/><rs type="person" ref="#held_louis">Louis Held</rs>
                        <lb/>Hofphotograph
-                       <lb/><rs type="place" ref="#weimar">Weimar</rs>
-                    </hi>
-                 </stamp>
+                       <lb/><rs type="place" ref="#weimar">Weimar</rs></stamp>
               <note resp="mg" type="annotation">Die Schrift ist in der linken unteren Ecke des Bildes vermutlich mit einem Prägestemptel eingeprägt worden und von einem Rechteck umrahmt.</note>
            </p>
            <pb n="verso" facs="1914_1208_postkarte_002"/>
