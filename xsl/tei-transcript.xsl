@@ -16,7 +16,7 @@
             <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
                 <title>Görmar Familienarchiv</title>
-                <link rel="stylesheet" type="text/css" href="file:/Users/maximiliangormar/Documents/GitHub/Goermar_familiy_papers/css/layout.css"/>
+                <link rel="stylesheet" type="text/css" href="https://github.com/mgoermar/Goermar_familiy_papers/blob/master/css/layout.css"/>
                 <script type="text/javascript" src="http://diglib.hab.de/edoc/ed000228/javascript/jquery/jquery-1.11.0.js"/>
                 <script type="text/javascript" src="http://diglib.hab.de/edoc/ed000228/javascript/jquery/functions.js"/>
             </head>
