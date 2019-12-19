@@ -10,7 +10,7 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xml/index.xml</String>
+                                    <String>xml/1914_1208_postkarte.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -25,7 +25,7 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xml/1914_1208_postkarte.xml</String>
+                                    <String>xml/index.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>

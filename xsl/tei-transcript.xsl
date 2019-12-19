@@ -17,8 +17,8 @@
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
                 <title>Görmar Familienarchiv</title>
                 <link rel="stylesheet" type="text/css" href="css/layout.css"/>
-                <script type="text/javascript" src="http://diglib.hab.de/edoc/ed000228/javascript/jquery/jquery-1.11.0.js"/>
-                <script type="text/javascript" src="http://diglib.hab.de/edoc/ed000228/javascript/jquery/functions.js"/>
+                <script type="text/javascript" src="jquery/jquery-1.11.0.js"/>
+                <script type="text/javascript" src="jquery/functions.js"/>
             </head>
             <body>
                 <header>
