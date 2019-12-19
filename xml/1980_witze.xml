@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/tei/P5/v2.8.0/tei-p5-transcr.xsd" xml:id="xml_1980_witze">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>DDR-Witze <date when="1980">vermutlich 1980-89</date></title>
+                <respStmt>
+                    <resp>transkribiert und kommentiert von</resp>
+                    <persName>
+                        <forename>Maximilian</forename>
+                        <surname>Görmar</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>korrigiert von</resp>
+                    <persName>
+                        <forename>N.</forename>
+                        <surname>N.</surname>
+                    </persName>
+                </respStmt>
+                <respStmt>
+                    <resp>Umsetzung der Digitalen Edition von</resp>
+                    <persName>
+                        <forename>Maximilian</forename>
+                        <surname>Görmar</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="person">Maximilian Görmar</name>
+                </publisher>
+                <date type="digitised" when="2019">2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <xi:include href="register/listPerson.xml" xpointer="element(person)"/>
+                <!--<xi:include href="register/listAbbr.xml" xpointer="element(abbr)"/>
+            <xi:include href="register/listSymb.xml" xpointer="element(symbol)"/>-->
+                <xi:include href="register/listPlace.xml" xpointer="element(place)"/>
+                <!--<xi:include href="register/listOrg.xml" xpointer="element(organisation)"/>
+            <xi:include href="register/listGloss.xml" xpointer="element(glossar)"/>
+            <xi:include href="register/listBibl.xml" xpointer="element(bibliographie)"/>-->
+            </sourceDesc>
+            <sourceDesc>
+                <msDesc xml:id="original_1980_witze" xml:lang="de">
+                    <msIdentifier>
+                        <msName>DDR-Witze</msName>
+                    </msIdentifier>
+                    <history>
+                        <summary>
+                            <p>
+                                Typoskript. Ursprünglich im Privatbesitz von Heinz Neuhäuser, jetzt von Maximilian Görmar.
+                            </p>
+                        </summary>
+                    </history>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><!--
+      <encodingDesc>
+         <classDecl>
+            <xi:include href="register/listSubject.xml" xpointer="element(subject)"/>
+         </classDecl>
+      </encodingDesc>-->
+        <revisionDesc>
+            <list>
+                <item>work in progress</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="document" xml:id="content_1980_witze">
+                <pb n="1" facs="1980_witze_001"/>
+                <p>
+                    <lb/><hi rendition="underline-dashed">Losungen zur guten Arbeit</hi>
+                    <lb/><list>
+                        <item>1. Wir wissen zwar nicht, was wir wollen, aber das mit ganzer Kraft.</item>
+                        <lb/><item>2. Alles klar - aber keiner weiß Bescheid.</item>
+                        <lb/><item>3. Man sagt, es gibt keine Probleme, aber wo wir sind, gibt es
+                        <lb/>immer Probleme.</item>
+                        <lb/><item>4. Spare mit jeder Sekunde, mit jedem Gramm und jedem Pfennig,
+                        <lb/>koste es, was es wolle.</item>
+                        <lb/><item>5. Wer schon die Übersicht verloren hat, muß wenigstens Mut zur
+                        <lb/>Entscheidung haben.</item>
+                        <lb/><item>6. Initiative ist Disziplinlosigkeit mit positivem Ausgang.</item>
+                        <lb/><item>7. Staatliche Aufgaben erfüllen heißt, überbieten ohne zu erfüllen.<note type="footnote" resp="mg">Möglicherweise Anspielung auf die erstmal 1970 von Walter Ulbricht öffentlich geäußerte Maxime "Überholen ohne einzuholen". Vgl. Joachim Nawrocki: "Ulbricht muss kürzertreten", in: Zeit Nr. 17/1970, online: <ref target="https://www.zeit.de/1970/17/ulbricht-muss-kuerzertreten">https://www.zeit.de/1970/17/ulbricht-muss-kuerzertreten</ref>.</note></item>
+                        <lb/><item>8. Wir kennen zwar den Plan nicht, aber wir leisten das Do<subst><del>ü</del><add place="inline">p</add></subst>pelte.</item>
+                        <lb/><item>9. Wo wir sind, geht alles durcheinander, aber wir können nicht
+                        <lb/>überall sein.</item>
+                        <lb/><item>10. Wir sind zu allem bereit, aber zu nichts zu gebrauchen.</item>
+                        <lb/><item>11. An der Spitze stehen ist immer noch nicht zu weit hinten.</item>
+                        <lb/><item>12. Wo wir sind, ist vorn, wenn wir hinten sind, ist hinten vorn.</item>
+                        <lb/><item>13. Wer viel arbeitet, macht viele Fehler, wer wenig arbeitet
+                        <lb/>macht keine Fehler, wer keine Fehler macht, wird befördert und
+                        <lb/>prämiert.</item>
+                        <lb/><item>14. Keiner ist unnütz, er kann noch immer als schlechtes Beispiel
+                        <lb/>dienen.</item>
+                        <lb/><item>15. Jeder macht was er will, keiner macht, was er soll, aber alle
+                        <lb/>machen mit.</item>
+                        <lb/><item>16. Gefährlich ist es, wenn die Dummen fleißig werden.</item>
+                        <lb/><item>17. So alt wir aussehen, so alt werden wir nie.</item>
+                        <lb/><item>18. Bei uns kann jeder werden, was er will, ob er will oder nicht.</item>
+                        <lb/><item>19. Wissen ist Macht, nichts wissen macht nicht[sic!]<note type="annotation" resp="mg">Zu korrigieren in: "nichts".</note>.</item>
+                        <lb/><item>20. Verstand ist unser Reichtum, Armut schändet nicht.</item>
+                        <lb/><item>21. Wahrheit ist unser höchstes Gut, gehen wir sparsam damit um.</item>
+                        <lb/><item>22. Wer bei der Arbeit einschläft, darf nicht geweckt werden.</item>
+                    </list>
+                </p>
+                <pb n="2" facs="1980_witze_002"/>
+                <p>
+                    <lb/>Der Vorsitzende einer <rs type="abbreviation" ref="#LPG">LPG</rs> hatte sich beim Kauf eines
+                    <lb/>Trabantes über die vielen Nebenkosten und Aufpreise 
+                    <lb/>geärgert.
+                    <lb/>Als kurze Zeit später das Werb <rs type="abbreviation" ref="#VEB">VEB</rs> Sachsenring Zwickau eine Kuh kaufte, <w lemma="bekam">be
+                    <lb/>kam</w> es folgende Rechnung:
+                    <lb/><table rows="9" cols="2">
+                        <row n="1" role="label">
+                            <cell role="label"><hi rendition="underline">Kuh</hi></cell>
+                            <cell/>
+                        </row>
+                        <row n="2" role="data">
+                            <cell role="data">- Grundpreis (Grundausstattung)</cell>
+                            <cell role="data">4.800,-- M</cell>
+                        </row>
+                        <row n="3" role="data">
+                            <cell role="data">- Zweifarbig (braun-weiß)</cell>
+                            <cell role="data">300,-- M</cell>
+                        </row>
+                        <row n="4" role="data">
+                            <cell role="data">Rindsleder</cell>
+                            <cell role="data">200,-- M</cell>
+                        </row>
+                        <row n="5" role="data">
+                            <cell role="data">Zapfhähne á 25,-- M (4 Stück)</cell>
+                            <cell role="data">100,-- M</cell>
+                        </row>
+                        <row n="6" role="data">
+                            <cell role="data">Hörner á 35,-- M (2 Stück)</cell>
+                            <cell role="data">70,-- M</cell>
+                        </row>
+                        <row n="7" role="data">
+                            <cell role="data">Fliegenwedel (halbautomatisch)</cell>
+                            <cell role="data">60,-- M</cell>
+                        </row>
+                        <row n="8" role="data">
+                            <cell role="data">Düngevorrichtung (vollautomatisch)</cell>
+                            <cell role="data">120,-- M</cell>
+                        </row>
+                        <milestone unit="section" rendition="#hr"/>
+                        <row n="9" role="sum">
+                            <cell role="sum">Totalkuh in gewünschter Ausfertigung</cell>
+                            <cell role="sum"><hi rendition="underline-double">5.650,-- M</hi></cell>
+                        </row>
+                    </table>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
