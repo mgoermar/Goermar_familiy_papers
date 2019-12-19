@@ -15,14 +15,14 @@
         <html>
             <head>
                 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-                <title>Görmar Familienarchiv</title>
+                <title>Görmar Familiengeschichte</title>
                 <link rel="stylesheet" type="text/css" href="css/layout.css"/>
                 <script type="text/javascript" src="jquery/jquery-1.11.0.js"/>
                 <script type="text/javascript" src="jquery/functions.js"/>
             </head>
             <body>
                 <header>
-                    <p>Virtuelles Archiv der Famlie Görmar</p>
+                    <p>Streifzüge durch die Geschichte der Familie Görmar in soundsovielen Objekten</p>
                 </header>
                 <xsl:call-template name="toc"/>
                 <h1><xsl:value-of select="//tei:titleStmt/tei:title"/></h1>
