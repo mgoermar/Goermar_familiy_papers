@@ -235,7 +235,7 @@
 
     <xsl:template match="tei:pb">
         <xsl:text>[</xsl:text>
-        <a class="pb" href="file:/Users/maximiliangormar/Documents/GitHub/Goermar_familiy_papers/images/{@facs}.JPG" target="_blank">[<xsl:value-of select="@n"/>]</a>
+        <a class="pb" href="images/{@facs}.JPG" target="_blank">[<xsl:value-of select="@n"/>]</a>
         <xsl:text>]</xsl:text>
     </xsl:template>
 
