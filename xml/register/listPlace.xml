@@ -31,8 +31,17 @@
                 <place xml:id="bad_frankenhausen">
                     <placeName ref="https://www.geonames.org/2953459/bad-frankenhausen.html">Bad Frankenhausen</placeName>
                 </place>
+                <place xml:id="berlin">
+                    <placeName ref="https://www.geonames.org/2950159/berlin.html">Berlin</placeName>
+                </place>
                 <place xml:id="gera">
                     <placeName ref="http://www.geonames.org/2921232/gera.html">Gera</placeName>
+                </place>
+                <place xml:id="nordsee">
+                    <placeName ref="https://www.geonames.org/2960848/north-sea.html">Nordsee</placeName>
+                </place>
+                <place xml:id="russland">
+                    <placeName ref="https://www.geonames.org/2017370/russian-federation.html">Russland</placeName>
                 </place>
                 <place xml:id="stassfurt">
                     <placeName ref="http://www.geonames.org/2829422/stassfurt.html">Staßfurt</placeName>

@@ -44,6 +44,34 @@
                     <death>1972</death>
                     <note>Sohn des Tischlers und Glasers August Görmar in Bad Frankenhausen; 1911 Beginn einer Zimmermannslehre; daneben Studium in Hoch- und Tiefbau am Polytechnischen Institut in Bad Frankenhausen; 1920 Prüfung zum Tiefbauingenieur; 1920-58 Tätigkeit in der staatlichen Straßenbauverwaltung; ab 1958 Rentner</note>
                 </person>
+                <person xml:id="heinemann_anon_1">
+                    <persName>
+                        <forename>N. N. (1)</forename>
+                        <surname>Heinemann</surname>
+                    </persName>
+                    <note>Vater von <rs type="person" ref="#heinemann_otto">Otto Heinemann</rs> und Ehemann von <rs type="person" ref="#heinemann_anon_2">N. N. (2) Heinemann</rs>.</note>
+                </person>
+                <person xml:id="heinemann_anon_2">
+                    <persName>
+                        <forename>N. N. (2)</forename>
+                        <surname>Heinemann</surname>
+                    </persName>
+                    <note>Mutter von <rs type="person" ref="#heinemann_otto">Otto Heinemann</rs> und Ehefrau von <rs type="person" ref="#heinemann_anon_1">N. N. (1) Heinemann</rs>.</note>
+                </person>
+                <person xml:id="heinemann_else">
+                    <persName>
+                        <forename>Else</forename>
+                        <surname>Heinemann</surname>
+                    </persName>
+                    <note>Vermutlich Schwester von <rs type="person" ref="#heinemann_otto">Otto Heinemann</rs> und Bekannte von <rs type="person" ref="#goermar_walter">Walter Görmar</rs>.</note>
+                </person>
+                <person xml:id="heinemann_otto">
+                    <persName>
+                        <forename>Otto</forename>
+                        <surname>Heinemann</surname>
+                    </persName>
+                    <note>Freund von Walter Görmar; starb offenbar als Kriegsfreiwilliger während des ersten Weltkrieges.</note>
+                </person>
                 <person xml:id="held_louis">
                     <persName ref="https://d-nb.info/gnd/124221785">
                         <forename>Louis</forename>
@@ -60,6 +88,20 @@
                     </persName>
                     <note>Freund von <rs type="person" ref="#goermar_walter">Walter Görmar</rs> und <rs type="person" ref="#robert_1">Robert</rs>; 1914 Rekrut in Gera, vermutlich mit <rs type="person" ref="#ernst_1">Ernst</rs></note>
                 </person>
+                <person xml:id="meissner_rudolf">
+                    <persName>
+                        <forename>Rodolf</forename>
+                        <surname>Meißner</surname>
+                    </persName>
+                    <note>Stammte vermutlich aus Bad Frankenhausen und war ein Bekannter Walter Görmars; mit diesem zusammen offenbar 1914 Kriegsfreiwilliger.</note>
+                </person>
+                <person xml:id="paul_1">
+                    <persName>
+                        <forename>Paul</forename>
+                        <surname>N. N.</surname>
+                    </persName>
+                    <note>Vermutlich gemeinsamer Freund von <rs type="person" ref="#goermar_walter">Walter Görmar</rs> und <rs type="person" ref="#heinemann_otto">Otto Heinemann</rs>; 1914 Soldat an der Ostfront.</note>
+                </person>
                 <person xml:id="robert_1">
                     <persName>
                         <forename>Robert</forename>
@@ -67,7 +109,20 @@
                     </persName>
                     <note>1914 Kriegsfreiwilliger; Kamerad von <rs type="person" ref="#goermar_walter">Walter Görmar</rs></note>
                 </person>
-                
+                <person xml:id="rudolf_1">
+                    <persName>
+                        <forename>Rudolf</forename>
+                        <surname>N. N.</surname>
+                    </persName>
+                    <note>Vermutlich gemeinsamer Freund von <rs type="person" ref="#goermar_walter">Walter Görmar</rs> und <rs type="person" ref="#heinemann_otto">Otto Heinemann</rs>.</note>
+                </person>
+                <person xml:id="winter_fritz">
+                    <persName>
+                        <forename>Fritz</forename>
+                        <surname>Winter</surname>
+                    </persName>
+                    <note>Stammte vermutlich aus Bad Frankenhausen und war ein Bekannter Walter Görmars; mit diesem zusammen offenbar 1914 Kriegsfreiwilliger.</note>
+                </person>
             </listPerson>
         </body>
     </text>

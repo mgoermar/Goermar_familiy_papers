@@ -3,7 +3,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title>DDR-Witze <date when="1980">vermutlich 1980-89</date></title>
+                <title>"Losungen zur guten Arbeit" und ein Witz, <date when="1980">vermutlich 1980-89</date></title>
                 <respStmt>
                     <resp>transkribiert und kommentiert von</resp>
                     <persName>
@@ -44,7 +44,7 @@
             <sourceDesc>
                 <msDesc xml:id="original_1980_witze" xml:lang="de">
                     <msIdentifier>
-                        <msName>DDR-Witze</msName>
+                        <msName>"Losungen zur guten Arbeit" und ein Witz</msName>
                     </msIdentifier>
                     <history>
                         <summary>
@@ -146,10 +146,9 @@
                             <cell role="data">Düngevorrichtung (vollautomatisch)</cell>
                             <cell role="data">120,-- M</cell>
                         </row>
-                        <milestone unit="section" rendition="#hr"/>
                         <row n="9" role="sum">
-                            <cell role="sum">Totalkuh in gewünschter Ausfertigung</cell>
-                            <cell role="sum"><hi rendition="underline-double">5.650,-- M</hi></cell>
+                            <cell role="sum"><milestone unit="sum" rendition="line"/>Totalkuh in gewünschter Ausfertigung</cell>
+                            <cell role="sum"><milestone unit="sum" rendition="line"/><hi rendition="underline-double">5.650,-- M</hi></cell>
                         </row>
                     </table>
                 </p>

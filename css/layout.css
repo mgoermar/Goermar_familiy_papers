@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 header {
-  background-color: #F1F1F1;
+  background-color: #BBC0C6;
   text-align: center;
   padding: 20px;
 }
@@ -41,7 +41,7 @@ ol, ul {
 	list-style: none;
 	margin: 0;
     padding: 0;
-    background-color: #F1F1F1;
+    background-color: #BBC0C6;
 }
 nav {
     float:left;
@@ -97,6 +97,21 @@ h1 {
     text-decoration:underline;
 }
 
+.underline-dashed {
+    text-decoration:underline;
+    text-decoration-style:dashed;
+}
+
+.underline-double {
+    text-decoration:underline;
+    text-decoration-style:double;
+}
+
+hr.line {
+    width: 25%;
+    margin-left: 0em;
+}
+
 .indent {
     padding-left:2em;
 }
@@ -116,11 +131,13 @@ h1 {
 .content {
     width:40em;
     margin-left:12.5em;
+    padding-left:1em;
 }
 
 #annotation {
     width:40em;
     margin-left:12.5em;
+    padding-left:1em;
 }
 
 .pShow {
@@ -157,7 +174,7 @@ position: relative;
 
 a {
     text-decoration:none;
-    color:black;
+    color:#160080;
 }
 
 li {

@@ -18,8 +18,8 @@
             <respStmt>
                <resp>korrigiert von</resp>
                <persName>
-                  <forename>N.</forename>
-                  <surname>N.</surname>
+                  <forename>Anja</forename>
+                  <surname>Neugebauer-Görmar</surname>
                </persName>
             </respStmt>
             <respStmt>
@@ -84,17 +84,17 @@
               </figure>
            </p>
            <p rendition="#c">
-              <lb/>Abs. Otto Heinemann
-              <lb/>Frankenhausen Kyffhäuser.
+              <lb/>Abs. <rs type="person" ref="#heinemann_otto">Otto Heinemann</rs>
+              <lb/><rs type="place" ref="#bad_frankenhausen">Frankenhausen Kyffhäuser</rs>.
               <lb/>Klinge 20.<note resp="mg" type="annotation">Der Absender befindet sich in der rechten unteren Ecke der Karte.</note>
            </p>
            <p>
               <lb/>Freundlichen Gruß
-              <lb/>an Fritz Winter u<ex>nd</ex>
-              <lb/>Rudolf Meißner.<note resp="mg" type="annotation">Dieser Absatz befindet sich am linken Rand der Karte mit Leserichtung quer zum Bild von unten nach oben.</note>
+              <lb/>an <rs type="person" ref="#winter_fritz">Fritz Winter</rs> u<ex>nd</ex>
+              <lb/><rs type="person" ref="#meissner_rudolf">Rudolf Meißner</rs>.<note resp="mg" type="annotation">Dieser Absatz befindet sich am linken Rand der Karte mit Leserichtung quer zum Bild von oben nach unten.</note>
            </p>
            <p>
-              <lb/>Auf <hi rendition="underline">Wiederseh</hi>n!<note type="annotation" resp="mg">Die Unterstreichung wurde durch einen verlängerten Bogen des "h" gebildet.</note> <add place="inline"><handShift scribe="wg"/>Es hat nicht sollen sein Gö<ex>ermar</ex></add>
+              <lb/>Auf <hi rendition="underline">Wiederseh</hi>n!<note type="annotation" resp="mg">Die Unterstreichung wurde durch einen verlängerten Bogen des "h" gebildet.</note> <add place="inline"><handShift scribe="wg"/>Es hat nicht sollen sein <rs type="person" ref="#goermar_walter">Gö<ex>rmar</ex></rs></add><note type="annotation" resp="mg">Dieser Absatz befindet sich am rechten Rand der Karte mit Leserichtung quer zum Bild von unten nach oben.</note>
            </p>
            <pb n="verso" facs="1914_1208_postkarte2_002"/>
            <div type="letter_adress">
@@ -103,7 +103,7 @@
                  <lb/>Herrn
                  <lb/><rs type="person" ref="#goermar_walter">Walter Görmar</rs>
                  <lb/>21 Landw<ex>ehr</ex> I<ex>nfanterie</ex> Brigade
-                 <lb/>38 Bautu[?] I<ex>nfanterie</ex> R<ex>egiment</ex>
+                 <lb/>38 Bautu[?]<note type="annotation" resp="mg">Alternative Lesung: "Psautu". Allerdings ergeben beide Lesungen keinen richtigen Sinn.</note> I<ex>nfanterie</ex> R<ex>egiment</ex>
                  <lb/><hi rendition="#et">1 Komp<ex>anie</ex></hi><note type="annotation" resp="mg">Neben dem üblichen Poststempel befindet sich noch ein roter Stempel über der Adresse mit folgendem Inhalt: "<hi rendition="super">1</hi>/<hi rendition="sub">38</hi> nicht". Außerdem ist fast derselbe Text nur mit römischer Eins (also: "<hi rendition="super">I</hi>/<hi rendition="sub">38</hi> nicht") mit dunkelblauem Buntstift quer über Postkartentext und Adressfeld geschrieben, dazu unter der Adresse in derselben Schrift die korrigierte Adresse "7/38". Zudem ist die "38" in der Adresse mit schwarzem Buntstift nachträglich doppelt unterstrichen worden.</note>
               </p>
            </div>
@@ -113,17 +113,17 @@
                  <lb/><salute><hi rendition="#et">Lieber Walter!</hi></salute>
               </opener>
               <p>
-                 <lb/>Deine Karte gestern mir vielem
+                 <lb/>Deine Karte gestern mit vielem
                  <lb/>Dank erhalten, habe mich sehr gefreut das[sic!]
                  <lb/>du noch an mich gedacht hast. Ich bin seit
                  <lb/>Anfang November hier. Am liebsten machte
-                 <lb/>ich auch mit in die Front, aber meine Eltern
+                 <lb/>ich auch mit in die Front, aber meine <rs type="person" ref="#heinemann_anon_1 #heinemann_anon_2">Eltern</rs>
                  <lb/>geben keine Einwilligung. Im Februar kann
-                 <lb/>ich wieder bei dem Meister in Berlin anfangen.
-                 <lb/>Paul ist seit 5 Wochen in Gera[,] kommt zu <w lemma="Weihnachten">Weih
-                 <lb/>nachten</w> auch nach Russland. Bei Rudolf heißt
-                 <lb/>noch Parole Nordseestrand. Sei 1000 X gegrüßt
-                 <lb/>von Eltern, Else und deinem Freund Otto. H<ex>einemann</ex>
+                 <lb/>ich wieder bei dem Meister in <rs type="place" ref="#berlin">Berlin</rs> anfangen.
+                 <lb/><rs type="person" ref="paul_1">Paul</rs> ist seit 5 Wochen in <rs type="place" ref="#gera">Gera</rs>[,] kommt zu <w lemma="Weihnachten">Weih
+                 <lb/>nachten</w> auch nach <rs type="place" ref="#russland">Russland</rs>. Bei <rs type="person" ref="#rudolf_1">Rudolf</rs> heißt
+                 <lb/>noch Parole <rs type="place" ref="#nordsee">Nordsee</rs>strand. Sei 1000 X gekrüßt[sic!]
+                 <lb/>von Eltern, <rs type="person" ref="#heinemann_else">Else</rs> und deinem Freund <rs type="person" ref="#heinemann_otto">Otto. H<ex>einemann</ex></rs>
               </p>
               <postscript>
                  <p>

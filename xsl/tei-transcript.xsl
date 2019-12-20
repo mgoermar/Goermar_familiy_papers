@@ -6,6 +6,8 @@
     xmlns:exist="http://exist.sourceforge.net/NS/exist" xmlns:mods="http://www.loc.gov/mods/v3"
     exclude-result-prefixes="tei mets xlink exist rdf" version="2.0">
     
+    
+    <!--<xsl:preserve-space elements="*"/>-->
     <xsl:import href="toc.xsl"/>
 
     <xsl:output encoding="UTF-8" indent="yes" method="html" doctype-public="-//W3C//DTD HTML 4.01//EN"
@@ -279,6 +281,16 @@
                 <xsl:apply-templates/>
             </span>
         </xsl:if>
+        <xsl:if test="@rendition='underline-dashed'">
+            <span class="underline-dashed">
+                <xsl:apply-templates/>
+            </span>
+        </xsl:if>
+        <xsl:if test="@rendition='underline-double'">
+            <span class="underline-double">
+                <xsl:apply-templates/>
+            </span>
+        </xsl:if>
         <xsl:if test="@rendition='underline #et'">
             <span class="underline indent">
                 <xsl:apply-templates/>
@@ -466,6 +478,9 @@
                     <xsl:with-param name="ref" select="@ref"/>
                 </xsl:apply-templates>
             </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
             
         </xsl:choose>
         
@@ -512,5 +527,83 @@
                 </p>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="tei:table">
+        <table>
+            <tbody>
+                
+                <xsl:for-each select="tei:row[following-sibling::tei:milestone[1][@rendition='line']]">
+                    <tr class="sum">
+                        <xsl:for-each select="tei:row">
+                            <td class="sum">
+                                <xsl:apply-templates/>
+                            </td>
+                        </xsl:for-each>
+                    </tr>
+                </xsl:for-each>
+                <xsl:apply-templates/>
+            </tbody>
+        </table>
+    </xsl:template>
+    <xsl:template match="tei:row">
+        <tr>
+            <xsl:if test="@role='sum'"><xsl:attribute name="class">sum</xsl:attribute></xsl:if>
+            <xsl:apply-templates/></tr>	
+    </xsl:template>
+    <xsl:template match="tei:cell">
+        <xsl:element name="td">
+            <xsl:if test="@style='right'">
+                <xsl:attribute name="style">text-align:right</xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@style='center'">
+                <xsl:attribute name="style">text-align:center</xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@cols">
+                <xsl:attribute name="colspan"><xsl:value-of select="@cols"/></xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@rows">
+                <xsl:attribute name="rowspan"><xsl:value-of select="@rows"/></xsl:attribute>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    <xsl:template match="//*[@rendition='line']">
+        <hr class="line" align="left"/>
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="tei:lb[parent::tei:w and not(ancestor::tei:add)]">
+        <xsl:choose>
+            <xsl:when test="preceding-sibling::tei:pb">
+                <br/>
+            </xsl:when>
+            <xsl:when test="ancestor::tei:rs">
+                <span style="color: #900129;"><xsl:text>-</xsl:text></span>
+                <br/>
+            </xsl:when>
+            <xsl:when test="ancestor::tei:foreign">
+                <span style="color: darkslateblue;"><xsl:text>-</xsl:text></span>
+                <br/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>-</xsl:text>
+                <br/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    <xsl:template match="text()[parent::tei:w]">
+        <xsl:value-of select="normalize-space()"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:handShift">
+        <xsl:variable name="number">
+            <xsl:call-template name="fnnumber" />
+        </xsl:variable>
+        <span id="ana{$number}">
+            <a href="#an{$number}" style="font-size:9pt;vertical-align:super;color:blue;">
+                <xsl:value-of select="$number" />
+            </a>
+        </span>
     </xsl:template>
 </xsl:stylesheet>

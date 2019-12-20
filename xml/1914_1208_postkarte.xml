@@ -18,8 +18,8 @@
             <respStmt>
                <resp>korrigiert von</resp>
                <persName>
-                  <forename>N.</forename>
-                  <surname>N.</surname>
+                  <forename>Anja</forename>
+                  <surname>Neugebauer-Görmar</surname>
                </persName>
             </respStmt>
             <respStmt>
@@ -93,6 +93,7 @@
            <div type="letter_adress">
               <p>
                  <lb/><hi rendition="underline #et">Feldpost</hi>
+                 <lb/>An den Vizefeldwebel
                  <lb/><hi rendition="#sup">Herrn</hi> <rs type="person" ref="#heymann_max">Max Heymann</rs>
                  <lb/>I. Rekruten Depot Inf<ex>anterie</ex> Reg<ex>iment</ex> N<ex>ummer</ex>o 96.
                  <lb/><hi rendition="#c"><rs type="place" ref="#gera">Gera</rs></hi>
