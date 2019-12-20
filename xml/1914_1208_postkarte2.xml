@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/tei/P5/v2.8.0/tei-p5-transcr.xsd" xml:id="xml_1914_1208_postkarte2">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Feldpostkarte, Otto Heinemann an Walter Görmar: <date when="1914-12-08">08. Dezember 1914</date></title>
+            <author>
+               <forename>Otto</forename>
+               <surname>Heinemann</surname>
+            </author>
+            <respStmt>
+               <resp>transkribiert und kommentiert von</resp>
+               <persName>
+                  <forename>Maximilian</forename>
+                  <surname>Görmar</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>korrigiert von</resp>
+               <persName>
+                  <forename>N.</forename>
+                  <surname>N.</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Umsetzung der Digitalen Edition von</resp>
+               <persName>
+                  <forename>Maximilian</forename>
+                  <surname>Görmar</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name type="person">Maximilian Görmar</name>
+            </publisher>
+            <date type="digitised" when="2019">2019</date>
+         </publicationStmt>
+         <sourceDesc>
+            <xi:include href="register/listPerson.xml" xpointer="element(person)"/>
+            <!--<xi:include href="register/listAbbr.xml" xpointer="element(abbr)"/>
+            <xi:include href="register/listSymb.xml" xpointer="element(symbol)"/>-->
+            <xi:include href="register/listPlace.xml" xpointer="element(place)"/>
+            <!--<xi:include href="register/listOrg.xml" xpointer="element(organisation)"/>
+            <xi:include href="register/listGloss.xml" xpointer="element(glossar)"/>
+            <xi:include href="register/listBibl.xml" xpointer="element(bibliographie)"/>-->
+         </sourceDesc>
+         <sourceDesc>
+            <msDesc xml:id="original_1914_1208_postkarte" xml:lang="de">
+               <msIdentifier>
+                  <msName>Feldpostkarte, Otto Heinemann an Walter Görmar:: 08. Dezember 1914</msName>
+               </msIdentifier>
+               <history>
+                  <summary>
+                     <p>
+                        Ursprünglich im Privatbesitz von Walter Görmar, später von Gerhard Görmar, jetzt von Maximilian Görmar.
+                     </p>
+                  </summary>
+               </history>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc><!--
+      <encodingDesc>
+         <classDecl>
+            <xi:include href="register/listSubject.xml" xpointer="element(subject)"/>
+         </classDecl>
+      </encodingDesc>-->
+      <revisionDesc>
+         <list>
+            <item>work in progress</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+  <text>
+     <body>
+        <div type="document" xml:id="content_1914_1208_postkarte2">
+           <pb n="recto" facs="1914_1208_postkarte2_001"/>
+           <p>
+              <figure>
+                 <graphic url="images/1914_1208_postkarte2_001.JPG"/>
+                 <head>
+                    Postkartenmotiv: Bild eines jungen Mädchens; handschriftliche Hinzufügungen.
+                 </head>
+              </figure>
+           </p>
+           <p rendition="#c">
+              <lb/>Abs. Otto Heinemann
+              <lb/>Frankenhausen Kyffhäuser.
+              <lb/>Klinge 20.<note resp="mg" type="annotation">Der Absender befindet sich in der rechten unteren Ecke der Karte.</note>
+           </p>
+           <p>
+              <lb/>Freundlichen Gruß
+              <lb/>an Fritz Winter u<ex>nd</ex>
+              <lb/>Rudolf Meißner.<note resp="mg" type="annotation">Dieser Absatz befindet sich am linken Rand der Karte mit Leserichtung quer zum Bild von unten nach oben.</note>
+           </p>
+           <p>
+              <lb/>Auf <hi rendition="underline">Wiederseh</hi>n!<note type="annotation" resp="mg">Die Unterstreichung wurde durch einen verlängerten Bogen des "h" gebildet.</note> <add place="inline"><handShift scribe="wg"/>Es hat nicht sollen sein Gö<ex>ermar</ex></add>
+           </p>
+           <pb n="verso" facs="1914_1208_postkarte2_002"/>
+           <div type="letter_adress">
+              <p>
+                 <lb/><hi rendition="underline #c">Feldpost</hi>
+                 <lb/>Herrn
+                 <lb/><rs type="person" ref="#goermar_walter">Walter Görmar</rs>
+                 <lb/>21 Landw<ex>ehr</ex> I<ex>nfanterie</ex> Brigade
+                 <lb/>38 Bautu[?] I<ex>nfanterie</ex> R<ex>egiment</ex>
+                 <lb/><hi rendition="#et">1 Komp<ex>anie</ex></hi><note type="annotation" resp="mg">Neben dem üblichen Poststempel befindet sich noch ein roter Stempel über der Adresse mit folgendem Inhalt: "<hi rendition="super">1</hi>/<hi rendition="sub">38</hi> nicht". Außerdem ist fast derselbe Text nur mit römischer Eins (also: "<hi rendition="super">I</hi>/<hi rendition="sub">38</hi> nicht") mit dunkelblauem Buntstift quer über Postkartentext und Adressfeld geschrieben, dazu unter der Adresse in derselben Schrift die korrigierte Adresse "7/38". Zudem ist die "38" in der Adresse mit schwarzem Buntstift nachträglich doppelt unterstrichen worden.</note>
+              </p>
+           </div>
+           <div type="letter_text">
+              <opener>
+                 <lb/><dateline rendition="#right"><rs type="place" ref="#bad_frankenhausen">Frankenhausen, Kyffh<ex>äuser</ex></rs> d<ex>en</ex> 8.12.14.</dateline>
+                 <lb/><salute><hi rendition="#et">Lieber Walter!</hi></salute>
+              </opener>
+              <p>
+                 <lb/>Deine Karte gestern mir vielem
+                 <lb/>Dank erhalten, habe mich sehr gefreut das[sic!]
+                 <lb/>du noch an mich gedacht hast. Ich bin seit
+                 <lb/>Anfang November hier. Am liebsten machte
+                 <lb/>ich auch mit in die Front, aber meine Eltern
+                 <lb/>geben keine Einwilligung. Im Februar kann
+                 <lb/>ich wieder bei dem Meister in Berlin anfangen.
+                 <lb/>Paul ist seit 5 Wochen in Gera[,] kommt zu <w lemma="Weihnachten">Weih
+                 <lb/>nachten</w> auch nach Russland. Bei Rudolf heißt
+                 <lb/>noch Parole Nordseestrand. Sei 1000 X gegrüßt
+                 <lb/>von Eltern, Else und deinem Freund Otto. H<ex>einemann</ex>
+              </p>
+              <postscript>
+                 <p>
+                    <lb/><add place="top_left">Bitte schreib <lb/>öfters einmal.</add><note type="annotation" resp="mg">Ergänzung in Bezug auf den Haupttext auf dem Kopf stehend.</note>
+                 </p>
+              </postscript>
+           </div>
+        </div>
+     </body>
+</text>
+</TEI>
