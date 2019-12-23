@@ -46,7 +46,7 @@
                             | tei:TEI/tei:text/tei:body//tei:choice">
                             <hr/>
                             <!-- 	                    <xsl:if test="tei:TEI/tei:text/tei:body/tei:div[@type='annotation'] | tei:TEI/tei:text/tei:body//tei:note[@type='annotation']"> -->
-                            <div id="textapparat">Textapparat</div>
+                            <!--<div id="textapparat">Textapparat</div>-->
                             <!-- 	                    </xsl:if> -->
                             <!-- 	                    <div id="annotation_text"> -->
                             <!--                         <xsl:choose> -->
@@ -80,11 +80,8 @@
                                                 <xsl:when test="self::tei:handShift">
                                                     <xsl:text>Schreiberwechsel zu </xsl:text>
                                                     <xsl:choose>
-                                                        <xsl:when test="@scribe='chr'">
-                                                            <i>Christian II</i>
-                                                        </xsl:when>
-                                                        <xsl:when test="@scribe='es'">
-                                                            <i>Fürstin Eleonora Sophia von Anhalt-Bernburg</i>
+                                                        <xsl:when test="@scribe='wg'">
+                                                            <i>Walter Görmar</i>
                                                         </xsl:when>
                                                         <xsl:when test="@scribe">
                                                             <i><xsl:value-of select="@scribe" /></i>
@@ -145,7 +142,7 @@
                         <xsl:if test="tei:TEI/tei:text/tei:body//tei:note[@type='footnote'] | tei:TEI/tei:text/tei:body//tei:ref[@type='biblical'][@cRef][not(ancestor::tei:note)]">
                             <hr/>
                             
-                            <div id="textapparat">Kommentar</div>
+                            <!--<div id="textapparat">Kommentar</div>-->
                             <xsl:choose>
                                 <xsl:when test="tei:TEI/tei:text/tei:body//tei:note[@type='commentar']">
                                     <!--  Wenn es eine Einleitung zum Kommentar gibt -->
