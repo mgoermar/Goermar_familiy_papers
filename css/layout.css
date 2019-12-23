@@ -22,7 +22,6 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-	text-align:justify;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -133,6 +132,7 @@ hr.line {
     width:40em;
     margin-left:12.5em;
     padding-left:1em;
+	text-align:justify;
 }
 
 #annotation {
