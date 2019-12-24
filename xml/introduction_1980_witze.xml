@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://diglib.hab.de/rules/schema/tei/P5/v2.8.0/tei-p5-transcr.xsd" xml:id="xml_main_introduction">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title>Einleitung zu den "Losungen zur guten Arbeit" und einem Witz</title>
+                <author>
+                    <forename>Maximilian</forename>
+                    <surname>Görmar</surname>
+                </author>
+                <respStmt>
+                    <resp>Umsetzung der Digitalen Edition von</resp>
+                    <persName>
+                        <forename>Maximilian</forename>
+                        <surname>Görmar</surname>
+                    </persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <name type="person">Maximilian Görmar</name>
+                </publisher>
+                <date type="digitised" when="2019">2019</date>
+            </publicationStmt>
+            <sourceDesc>
+                <xi:include href="register/listPerson.xml" xpointer="element(person)"/>
+                <!--<xi:include href="register/listAbbr.xml" xpointer="element(abbr)"/>
+            <xi:include href="register/listSymb.xml" xpointer="element(symbol)"/>-->
+                <xi:include href="register/listPlace.xml" xpointer="element(place)"/>
+                <!--<xi:include href="register/listOrg.xml" xpointer="element(organisation)"/>
+            <xi:include href="register/listGloss.xml" xpointer="element(glossar)"/>
+            <xi:include href="register/listBibl.xml" xpointer="element(bibliographie)"/>-->
+            </sourceDesc>
+        </fileDesc><!--
+      <encodingDesc>
+         <classDecl>
+            <xi:include href="register/listSubject.xml" xpointer="element(subject)"/>
+         </classDecl>
+      </encodingDesc>-->
+        <revisionDesc>
+            <list>
+                <item>work in progress</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="document" xml:id="main_introduction">
+                <p>
+                    <hi rendition="bold">I.</hi> Das heutige Bild der untergegangenen DDR ist vielfach durch ein tristes Grau gekennzeichnet. Nicht nur die alten Schwarzweißbilder erscheinen vielen in Graustufen, nein, auch die Farbbilder sind größtenteils von grauen verfallenden Altbauten oder neuen, aber ebenfalls grauen Plattenbauten geprägt, von grauen Rauchschwaden, die aus Industrieessen und Schornsteinen aufstiegen und nicht nur die zum Trocknen aufgehängte weiße Wäsche ebenfalls in ihr rußiges Grau tauchten. Ähnlich trostlos erscheint die DDR als politisches Gemeinwesen. Eine totalitäre Diktatur, ein Unrechtsstaat ohne Meinungsfreiheit, in dem die Stasi alles und jeden mit ihrem Netz an offiziellen und inoffiziellen Mitarbeitern überwachte. Wahrlich, ein Staat in dem es wenig zu lachen gegeben haben muss!
+                </p>
+                <p>
+                    <lb/><hi rendition="bold">II.</hi> Dieses Bild ist, wenn auch nicht gänzlich falsch – denn Verfall und Umweltverschmutzung, Parteidiktatur und Überwachungsapparat waren real existierende Kennzeichen des real existierenden Sozialismus – so doch zumindest einseitig. Denn natürlich wurde auch in der DDR trotz aller Entbehrungen gelacht und es wurden Witze gemacht. Selbst in dem in erster Auflage 1970 im Dietz Verlag, dem offiziellen Parteiverlag der SED, erschienenen Kulturpolitischen Wörterbuch fanden Humor und Witz als eigene Stichwörter Aufnahme. Dabei beschränkt sich der Eintrag zum Witz größtenteils auf das Faktische und definiert diesen durchaus treffend folgendermaßen:
+                </p>
+                <p rendition="#et">
+                    „Wortkomik; kleine, vornehmlich mündlich verbreitete Erzählung, meist nur aus wenigen Sätzen bestehend, in deren Pointe die durch das Erzählen gesteigerte Spannung in einer völlig unerwarteten, logisch nicht vorhersehbaren Richtung gelöst wird. Auf dieser komisch-verblüffenden Wendung beruht die Heiterkeit erzeugende Wirkung des W[itzes].“<note type="footnote" resp="mg">Manfred Berger, Harald Bühl et al. (Hrsg.): Kulturpolitisches Wörterbuch, 2. Aufl., Berlin 1978, S. 769.</note>
+                </p>
+                <p>
+                    Im Eintrag zum Lemma Humor geht es dagegen wesentlich ideologischer zu. Hier wird  eine Theorie des Humors entwickelt, die zwischen einem „Pseudo-H[umor] bürgerlicher und kleinbürgerlicher Provenienz“ und einem „echten H[umor]“ unterscheidet. Während sich über jenen „ein beachtlicher Teil an reaktionären Meinungsmanipulationen“ vollzieht, ist die Entwicklung von diesem „entscheidend an die Erneuerung aller zwischenmenschlichen Beziehungen geknüpft, wie sie sich im solidarischen Kampf der Arbeiterklasse und beim Aufbau des Sozialismus und Kommunismus entwickeln.“ Bei diesem Prozess kann der Humor selbst ein „aktiver Stimulator“ sein und „nicht zuletzt auch als Methode freundschaftlicher Kritik innerhalb der verschiedenen Kollektive der Gesellschaft“ dienen.<note type="footnote" resp="mg">Alle Zitate ebd. S. 280.</note> Dem Humor kam also den Autoren des Wörterbuchs zufolge eine wichtige Funktion beim Aufbau des Sozialismus zu, er sollte sogar der gegenseitigen „freundschaftlichen“ Kritik dienen.
+                </p>
+                <p>
+                    Im Unterschied zu dieser das „versöhnende Element“<note type="footnote" resp="mg">Ebd. S. 279.</note> betonenden, offiziellen Charakterisierung des Humors in der DDR, heben die meisten heutigen Kommentatoren und Studien zu diesem Thema vor allem das subversive, auf eine Gegenöffentlichkeit zielende Element der Witzkultur in der DDR hervor. Demnach sei in der DDR „[d]er politische Witz [...] – in seiner radikalsten Form – nicht nur Opposition sondern bereits eine geistige Auswanderung“ gewesen.<note type="footnote" resp="mg">Andrea Schiewe, Jürgen Schiewe: Witzkultur in der DDR. Ein Beitrag zur Sprachkritik, Göttingen 2000, S. 89.</note>
+                </p>
+                <p>
+                    <lb/><hi rendition="bold">III.</hi> In diesem Spannungsfeld zwischen freundschaftlicher, grundsätzlich versöhnlicher Kritik sowie radikaler Opposition und innerer Emigration sind auch die hier edierten Quellen, „Losungen zur guten Arbeit“ sowie ein Witz über die hohen Aufpreise beim Kauf eines Trabants, zu verorten. Bei beiden Schriftstücken handelt es sich um Typoskripte aus dem vorherigen Besitz von Heinz Neuhäuser, der zu DDR-Zeiten als diplomierter Elektroingenieur tätig war. Die Typoskripte sind vielleicht in den 1980er Jahren entstanden, der Ursprung der darauf aufgezeichneten Inhalte lässt sich nicht mehr feststellen, da sie als Witze gewissermaßen zum kollektiven geistigen Eigentum der DDR-Bevölkerung gehörten, ohne dass ein Urheber ermittelbar wäre. Dementsprechend kursierten sie in vielen abgewandelten Fassungen, die durch die hauptsächlich mündliche Verbreitung ständig vermehrt wurden. So kursierten die „Losungen zur guten Arbeit“ auch unter dem Titel „Losungen der guten sozialistischen Arbeit“ in veränderter Reihenfolge und unter Einschluss zusätzlicher Losungen bzw. Auschluss mancher Losungen.<note type="footnote" resp="mg">Abgedruckt bei Schiewe/Schiewe, Witzkultur, S. 36.</note> Sie stellten einen Gegenentwurf zu den offiziellen vom Zentralkommitee der SED jährlich zum 1. Mai ausgegebenen Losungen dar und zeichneten „selbstironisch das Leben im real existierenden Sozialismus nach“.<note type="footnote" resp="mg">Ebd.</note> Damit wiesen sie auf einzelne Missstände hin und stellten Anspruch und Wirklichkeit kritisch einander gegenüber. So spielten die „Losungen“ etwa auf die Planlosigkeit der Planwirtschaft,<note type="footnote" resp="mg">„Wer schon die Übersicht verloren hat, muß wenigstens Mut zur Entscheidung haben.“ und „Wir kennen zwar den Plan nicht, aber wir leisten das Doppelte.“</note> auf die potentiellen Gefahren von Eigeninitiative im Betrieb<note type="footnote" resp="mg">„Initiative ist Disziplinlosigkeit mit positivem Ausgang.“ und „Wer viel arbeitet, macht viele Fehler, wer wenig arbeitet macht keine Fehler, wer keine Fehler macht, wird befördert und prämiert.“</note> oder die fehlende Informationsfreiheit in der DDR an.<note type="footnote" resp="mg">„Wahrheit ist unser höchstes Gut, gehen wir sparsam damit um.“</note> Insgesamt aber stellten sie das System nicht grundsätzlich in Frage und dienten zumindest zeitweise dazu die DDR-Bürger trotz aller Mängel desselben mit ihm zu versöhnen.
+                </p>
+                <p>
+                    Dasselbe gilt für den Witz über einen LPG-Vorsitzenden, der sich über die hohen Aufpreise beim Kauf eines Trabants ärgerte. Der LPG-Vorsitzende schickte daraufhin eine ähnliche Rechnung an das VEB Sachsenring Werk, als dieses bei ihm eine Kuh bestellte. Damit wird die in der DDR im Vergleich zur Bundesrepublik deutlich schwierigere Versorgungslage mit privaten PKW satirisch kritisiert, nicht jedoch das ganze System. 
+                </p>
+                <p>
+                    <lb/><hi rendition="bold">IV.</hi> Die hier präsentierten Witze dürften also kaum bereits eine „geistige Auswanderung“ oder Radikalopposition zum Audruck gebracht haben, viel eher wohl eine freundschaftliche und durchaus noch versöhnliche Kritik an bestehenden Missständen im Sinne des Kulturpolitischen Wörterbuches. Freilich wurde je länger die DDR existierte und je mehr sich die Parteikader auf mittlerer und höherer Ebene von der sonstigen Bevölkerung abkapselten, diese wie auch deutlich unmissverständlicher formulierte Kritik von den Herrschenden umso weniger gehört. Jedenfalls heißt es in einem anonymen Schreiben an Erich Honecker von 1985:
+                </p>
+                <p rendition="#et">
+                    „Das Schlimmste aber ist, wie mir von vertrauenswürdigen Genossen auf Kreis-, ja Bezirksebene im Laufe der letzten Jahre mehrfach versichert wurde, dass wahrheitsgemäße Berichte zur Versorgungslage auf bestimmten Warengebieten von ihren Vorgesetzten als ‚Schwarzmalerei‘ bezeichnet wurden und gestrichen werden mussten. 
+                        Warum sagen verantwortliche Genossen an der Spitze, warum sagst Du, lieber Erich, nicht einmal die Wahrheit zu diesen Dingen? Auch ich gehöre zu denen, die ein offenes Wort vertragen können. Jedoch das Nichtoffene, das Getue, und die Niederhaltung der Kritik anstelle des Bemühens um eine echte Lösung der Probleme, das vertragen unsere Menschen nicht.“<note type="footnote" resp="mg">Zitiert nach: Günther Heydemann: „Gesellschaft und Alltag in der DDR“, in: Informationen zur politischen Bildung  270 (2002), online: <ref target="http://www.bpb.de/izpb/9766/gesellschaft-und-alltag-in-der-ddr">http://www.bpb.de/izpb/9766/gesellschaft-und-alltag-in-der-ddr</ref>.</note>
+                </p>
+                <p>
+                    Es dürfte nicht zuletzt diese bewusste Ignoranz gegenüber den Bedürfnissen der Bevölkerung, die sich gerade auch im Medium des Witzes artikulierten und hier ein Ventil fanden, das dem Zugriff der SED und der Stasi entzogen war, die die Menschen 1989 auf die Straßen trieb, um sich entschiedener Gehör zu verschaffen und letztendlich das Ende der DDR herbeizuführen.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

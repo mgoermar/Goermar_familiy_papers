@@ -120,6 +120,10 @@ hr.line {
     font-weight:bold;
 }
 
+.italic {
+    font-style:italic;
+}
+
 .ex {
     font-style: italic;
 }

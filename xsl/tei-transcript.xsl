@@ -228,6 +228,11 @@
                     <xsl:text>center</xsl:text>
                 </xsl:attribute>
             </xsl:if>
+            <xsl:if test="@rendition='#et'">
+                <xsl:attribute name="class">
+                    <xsl:text>indent</xsl:text>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -300,6 +305,11 @@
         </xsl:if>
         <xsl:if test="@rendition='bold'">
             <span class="bold">
+                <xsl:apply-templates/>
+            </span>
+        </xsl:if>
+        <xsl:if test="@rendition='italic'">
+            <span class="italic">
                 <xsl:apply-templates/>
             </span>
         </xsl:if>
@@ -491,6 +501,12 @@
                 <xsl:when test="ancestor::tei:w"><xsl:value-of select="normalize-space(.)"/></xsl:when>
                 <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
             </xsl:choose>
+        </a>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref">
+        <a href="{@target}" target="_blank">
+            <xsl:apply-templates/>
         </a>
     </xsl:template>
     

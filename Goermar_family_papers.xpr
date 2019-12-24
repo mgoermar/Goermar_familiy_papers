@@ -10,6 +10,36 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>xml/introduction_1980_witze.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>tei_transcript</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xml/index.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>tei_transcript</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>xml/1980_witze.xml</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -26,21 +56,6 @@
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>xml/1914_1208_postkarte2.xml</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>tei_transcript</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XSL</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>xml/index.xml</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
@@ -182,5 +197,6 @@
     </meta>
     <projectTree name="Goermar_family_papers.xpr">
         <folder path="."/>
+        <file name="introduction_1914_feldpostkarten.html"/>
     </projectTree>
 </project>
