@@ -25,6 +25,20 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>xml/introduction_1914_feldpostkarten.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>tei_transcript</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>xml/index.xml</String>
                                 </field>
                                 <field name="scenarioIds">
