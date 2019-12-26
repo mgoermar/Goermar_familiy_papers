@@ -33,6 +33,7 @@
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
+                                    <list>
                                         <String>XSL</String>
                                     </list>
                                 </field>
